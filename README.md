@@ -4,8 +4,8 @@
 This script is a simple MD5, SHA256, and SHA512 hash cracker that takes a hash and a wordlist as input to find the corresponding plaintext password.
 
 ## Usage
-- `pip3 install -r requirements`
-- `python3 md5_cracker.py <md5/sha256/sha512> <hash> <wordlist>`
+- `pip3 install -r requirements.txt`
+- `python3 hashcracker.py <md5/sha256/sha512> <hash> <wordlist>`
 - `<md5/sha256/sha512>`: Specify the type of hash to crack.
 - `<hash>`: Provide the hash to crack.
 - `<wordlist>`: Specify the path to the wordlist file containing potential passwords.
